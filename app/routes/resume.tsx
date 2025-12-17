@@ -63,7 +63,7 @@ const Resume = () => {
       {/* MAIN LAYOUT */}
       <div className="flex w-full min-h-screen">
         {/* LEFT: STICKY RESUME */}
-        <section className="w-1/2 max-lg:hidden sticky top-0 h-screen flex items-center justify-center bg-[url('https://i.pinimg.com/1200x/80/99/92/80999217b292b2c91addb738b5afdff9.jpg')] bg-cover">
+        <section className="w-1/2 max-lg:hidden sticky top-0 h-screen flex items-center justify-center bg-[url('/images/review.jpg')] bg-cover">
           {imageUrl && resumeUrl && (
             <div className="gradient-border h-[90%] w-auto animate-in fade-in duration-1000">
               <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
