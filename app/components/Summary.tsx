@@ -12,7 +12,7 @@ const Category=({title,score}: {title:string,score:number})=>{
           <ScoreGauge score={score}/>
         </div>
         <p className='text-2xl'>
-          <span className={textColor}></span>/100
+          <span className={textColor}>{score}</span>/100
         </p>
      </div>
     </div>
