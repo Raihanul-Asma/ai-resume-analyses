@@ -18,7 +18,7 @@ const ATS = ({
           : "from-red-100"
       )}
     >
-      <div className="flex flex-row gap-4 items-center">
+      <div className="flex items-center gap-4 border-b pb-4">
         <img
           src={
             score > 69
@@ -32,7 +32,7 @@ const ATS = ({
         />
         <p className="text-2xl font-semibold">ATS Score - {score}/100</p>
       </div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-3">
         <p className="font-medium text-xl">
           How well does your resume pass through Applicant Tracking Systems?
         </p>
