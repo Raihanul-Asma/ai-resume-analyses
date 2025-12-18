@@ -8,7 +8,7 @@ import { Link,useNavigate } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "ResumeMind" },
+    { title: "FitScore AI" },
     { name: "description", content: "Smart feedback for your dream job" },
   ];
 }
