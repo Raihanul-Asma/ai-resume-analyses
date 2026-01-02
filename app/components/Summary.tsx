@@ -26,7 +26,7 @@ const Summary = ({feedback }:{feedback:Feedback}) => {
   return (
     <div className='bg-white rounded-2xl shadow-md w-full'>
       <div className="flex items-center gap-6 p-6 border-b">
-  <div className="flex-shrink-0">
+  <div className="shrink-0">
     <ScoreGauge score={feedback.overallScore} />
   </div>
 
